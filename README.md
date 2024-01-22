@@ -15,6 +15,8 @@ Sandwich Attack Identification: Analyzes possible sandwich attacks by checking f
 
 
 
+
+
 Requirements
 Python 3.x
 
@@ -23,6 +25,7 @@ Web3.py library (pip install web3)
 pyfiglet library (pip install pyfiglet)
 
 colorama library (pip install colorama)
+
 
 
 
@@ -41,6 +44,7 @@ Identify potential sandwich attack transactions.
 
 
 
+
 Functions
 grabTransactions(): Pulls down all transactions in the latest block and populates dictionaries with related data.
 
@@ -51,11 +55,14 @@ findSandwich(possibleSandwich): Filters and identifies likely sandwich attack tr
 
 
 
+
+
 Customization
 
 Known DEX Contracts: Modify the known_dex_contracts list to include addresses of DEX contracts you want to monitor.
 
 Connection Details: Change the Web3 HTTPProvider URL to connect to a different Ethereum node or network.
+
 
 
 
