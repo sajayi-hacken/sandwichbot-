@@ -1,7 +1,7 @@
 # README for Sandwich Bot Tracker
 
 Overview
-The "5m477 Bot Sandwich Tracker" is a Python script designed to identify potential sandwich attack transactions on the Ethereum blockchain. It utilizes the Web3 library to interact with the Ethereum network, pyfiglet for visual headers, and colorama for colored console output. The script analyzes transactions in the latest block and flags transactions that could be part of a sandwich attack, a type of manipulation where a bot places transactions before and after a target transaction to profit from the price slippage.
+The "Sandwich Bot Tracker" is a Python script designed to identify potential sandwich attack transactions on the Ethereum blockchain. It utilizes the Web3 library to interact with the Ethereum network, pyfiglet for visual headers, and colorama for colored console output. The script analyzes transactions in the latest block and flags transactions that could be part of a sandwich attack, a type of manipulation where a bot places transactions before and after a target transaction to profit from the price slippage.
 
 
 Features
