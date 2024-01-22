@@ -7,7 +7,7 @@ result = pyfiglet.figlet_format("5m477 Bot Sandwich Tracker", font="chunky")
 print(f'{Fore.GREEN}Searching for Sandwich: \n {Fore.RED}{result}') 
 
 # Setup Web3 connection to the Ethereum blockchain
-web3 = Web3(Web3.HTTPProvider('https://mainnet.infura.io/v3/cef58d75a70a4ee4894041a4fd531efe'))
+web3 = Web3(Web3.HTTPProvider('https://mainnet.infura.io/v3/[API]'))
 block = web3.eth.get_block('latest')
 
 # Initialize dictionaries to store transaction data
@@ -17,7 +17,7 @@ txLookup = {}  # Lookup table for transactions
 possibleSandwich = {}  # Stores potential sandwich attack transactions
 
 # List of known DEX contract addresses (to be filled with actual addresses)
-known_dex_contracts = ['0xdAC17F958D2ee523a2206206994597C13D831ec7, 0x152649eA73beAb28c5b49B26eb48f7EAD6d4c898']
+known_dex_contracts = ['[Address], [Address]']
 
 def grabTransactions():
     """ Pulls down all transactions in the latest block and populates dictionaries
